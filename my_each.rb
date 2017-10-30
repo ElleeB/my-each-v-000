@@ -7,7 +7,7 @@ def my_each(collection)
     yield collection[index]
     index += 1
   end
-  
+
 end
 
 my_each(collection) do |index|
